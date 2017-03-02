@@ -1,0 +1,155 @@
+* {
+box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+body{
+  background-color: #444444;
+}
+/*-----------------HEADER----------------------*/
+
+.header{
+  position: absolute;
+  background: white;
+  float: left;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+}
+
+.burger{
+  position: relative;
+  float: left;
+  top: 23%;
+  left: 1%;
+
+}
+
+.logo{
+  position: relative;
+  float: left;
+  top: 14%;
+  left: 3%;
+}
+
+
+.field1{
+  position: relative;
+  float: left;
+  top: 24%;
+  left: 31%;
+  height: 49px;
+  width: 250px;
+  font-size: 25px;
+}
+
+.search{
+  position: relative;
+  float: left;
+  top: 24%;
+  left: 32%;
+  border-width: 10px 9px 10px 9px;
+  border-color: black;
+  border-style: solid;
+  height: 49px;
+}
+
+/*-----------------SIDEBAR----------------------*/
+
+.sidebar{
+  position: absolute;
+  background: #f3f3f3;
+  float: right;
+  top: 20%;
+  right: 0%;
+  width: 28%;
+  height: 108%;
+
+}
+
+.hire{
+  position: absolute;
+  float: right;
+  top: 8%;
+  right: 6%;
+  height: 200px;
+
+}
+
+/*-----------------BODY----------------------*/
+
+.body{
+  position: absolute;
+  background: white;
+  float: left;
+  top: 28%;
+  left: 2%;
+  width: 67%;
+  height: 100%;
+  font-family: "Whitney Cond A", "Whitney Cond B","Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+h1{
+  font-weight: bold;
+  padding-left: 53px;
+  padding-right: 63px;
+}
+
+p{
+    padding-left: 53px;
+    padding-right: 58px;
+}
+
+blockquote{
+    padding-left: 53px;
+}
+.gray{
+  position: relative;
+  top: 3px;
+  background: #F3F3F3;
+  height: 40px;
+  padding-top: 11px;
+  padding-left: 42px;
+  color:#B8B1BA;
+}
+
+.blue{
+  color:#0FABF3;
+}
+
+.link{
+  position: relative;
+  float: left;
+  top: -100px;
+  left: 813px;
+  height: 55px;
+}
+
+
+.text1{
+  font-weight: 400;
+  line-height: 1.45;
+}
+/*-----------OTHER STUFF-----------------*/
+
+.line{
+  position: absolute;
+  background: rgba(247, 196, 120, 0.50);
+  float: left;
+  top: 20%;
+  left: -1%;
+  width: 102%;
+  height: 2%;
+  z-index: 5;
+  }
