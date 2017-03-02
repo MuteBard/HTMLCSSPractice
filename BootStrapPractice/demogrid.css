@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: black;
+}
+
+
+#banner{
+  text-align: center;
+  padding: 200px 0;
+  background-color:#002B36;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+#main{
+  border: 2px solid #151617;
+    background-color:#335576;
+}
+
+
+#contentM1{
+  text-align: center;
+  padding: 200px 0;
+  background-color:#1C2D8C;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 500px;
+}
+
+#contentM2{
+  text-align: center;
+  padding: 200px 0;
+  background-color:#D85A03;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 5500px;
+}
+
+#contentM3{
+  text-align: center;
+  padding: 200px 0;
+  background-color:#03D86E;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 500px;
+}
+
+
+#avatars{
+  border: 2px solid #151617;
+    background-color:#4B875F;
+}
+
+
+#contentA1{
+  text-align: center;
+  padding: 100px 0;
+  background-color:#D85A03;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 5500px;
+
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  word-wrap:break-word;
+
+
+}
+
+#contentA2{
+  text-align: center;
+  padding: 100px 0;
+  background-color:#03D86E;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 500px;
+}
+
+#contentA3{
+  text-align: center;
+  padding: 100px 0;
+  background-color:#D85A03;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 5500px;
+}
+
+#contentA4{
+  text-align: center;
+  padding: 100px 0;
+  background-color:#03D86E;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+
+  border: 2px solid #151617;
+  border-radius: 500px;
+}
+
+.face{
+  border-radius: 500px;
+  border: 2px solid #444444;
+}
