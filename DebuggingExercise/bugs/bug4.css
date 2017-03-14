@@ -1,0 +1,24 @@
+h1 {
+  background-color: orange;
+  font-weight: normal;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+a {
+  font-style: italic;
+  color: magenta;
+}
+
+pre {
+  font-family: Monaco;
+  background-color: #444;
+  color: #fff;
+}
