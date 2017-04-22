@@ -1,0 +1,80 @@
+.parent1, .parent2, .parent3, .parent4, .parent5, .parent6, .parent7, .parent8{
+  border : 5px solid lightcoral;
+}
+
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8{
+  height: 50px;
+  margin: 5px;
+  background: DeepSkyBlue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+/*this is being auto prefixed so if your target browser is mozzilla or webkit you want to do that*/
+.parent1, .parent2, .parent3, .parent4, .parent5, .parent6, .parent7{
+  display: flex;
+}
+
+.item1{
+  margin: 0;
+}
+
+.item2{
+  width : 50px;
+}
+
+
+/*--------------Reverse contents--------------------*/
+.parent3{
+  flex-direction: row-reverse
+  /*justify-content: center;*/
+}
+
+.item3, .item4, .item5{
+  width : 50px;
+}
+/*--------------------------------------------------*/
+
+/*--------------COL-------------------------------*/
+.parent4{
+  flex-direction: column;
+}
+
+.parent5{
+  flex-direction: column-reverse;
+
+}
+/*--------------COL-------------------------------*/
+
+.item6{
+  width: 50%;
+}
+
+
+/*--------------WRAP-------------------------------*/
+.parent7{
+  display : flex;
+  flex-wrap : wrap;
+}
+
+.item7{
+  width: 49.45%;
+}
+/*-------------------------------------------------*/
+
+.parent8{
+  height: 800px
+  display : flex;
+  flex-direction: column;
+}
+
+.item8{
+  width: 150px;
+}
+
+.item8:nth-child(2){
+  background: green;
+}
