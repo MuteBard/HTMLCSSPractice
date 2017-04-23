@@ -1,0 +1,137 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2F3132;
+  color: white;
+  font-family: Consolas, monaco, monospace, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+}
+/*---------------------------COVER----------------------------------*/
+.coverPicture{
+  /*border : 5px solid lightcoral;*/
+  position: relative;
+  display: flex;
+
+
+}
+.coverText{
+  position: absolute;
+  left: 50%;                        /* horizontal alignment */
+  top: 50%;                         /* vertical alignment */
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  display: inline;
+}
+
+.coverItem{
+  width : 100%;
+  height : 42em;
+}
+
+
+/*------------------------------------------------------------------*/
+/*---------------------------NAVBAR---------------------------------*/
+.navBar{
+  /*border : 5px solid lightcoral;*/
+  display: flex;
+
+}
+.navItem{
+  height: 70px;
+  margin: 0;
+  background: DeepSkyBlue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.navItem:nth-child(1){
+  background: #1a1529;
+  width : 50%;
+  font-size : 2em;
+}
+.navItem:nth-child(2){
+  background: #675d86;
+  width : 16.66%;
+}
+.navItem:nth-child(3){
+  background: #423568;
+  width : 16.66%;
+}
+.navItem:nth-child(4){
+  background: #2e2548;
+  width : 16.66%;
+}
+
+/*-------------------------------------------------------------------*/
+/*---------------------------CONTENT---------------------------------*/
+
+.content{
+  border-color : #0B1649;
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  display : flex;
+  flex-wrap : wrap;
+}
+
+.contentItem{
+  width: 50%;
+  height: 500px;
+  background: DeepSkyBlue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+#ci1{
+  background-color: #253442;
+  width: 61.8%;
+  padding : 50px 50px 50px 50px;
+
+}
+
+#ci2{
+  background-color: #253442;
+  width: 27%;
+  padding : 50px 50px 50px 0;
+}
+
+#ci3{
+  background-color: #5D6D7E;
+}
+#ci4{
+  background-color: #161F29;
+}
+#ci5{
+  background-color: #423568;
+}
+#ci6{
+  background-color: #675d86;
+}
+#ci7{
+  background-color: #2e2548;
+}
+#ci8{
+  background-color: #1a1529;
+}
+
+#ci1, #ci6, #ci7{
+  font-size: 1.5em;
+}
+/*------------------------------Footer----------------------------------*/
+.footerPicture{
+  /*border : 5px solid lightcoral;*/
+  display: flex;
+}
+.footerItem{
+  width : 100%;
+  height : 50em;
+}
+/*---------------------------------------------------------------------*/

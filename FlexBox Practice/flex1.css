@@ -60,13 +60,13 @@
   flex-wrap : wrap;
 }
 
-.item7{
-  width: 49.45%;
-}
+/*.item7{
+  width: 30%;
+}*/
 /*-------------------------------------------------*/
 
 .parent8{
-  height: 800px
+  height: 800px;
   display : flex;
   flex-direction: column;
 }
